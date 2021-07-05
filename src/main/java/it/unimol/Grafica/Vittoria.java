@@ -10,7 +10,7 @@ import java.awt.*;
 public class Vittoria {
     private JPanel vittoriaPanel;
 
-    public Vittoria(int punteggio){
+    public Vittoria(int punteggio) {
         Punteggio punteggio1 = new Punteggio();
         punteggio1.setPunteggio(punteggio);
         ListaPunteggio listaPunteggio = ListaPunteggio.getInstance();
@@ -29,12 +29,11 @@ public class Vittoria {
         framerecord.setSize(800, 720);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-        framerecord.setLocation(0,0);
+        framerecord.setLocation(0, 0);
 
         framerecord.add(getVittoriaPanel());
         framerecord.setVisible(true);
     }
-
 
 
 }

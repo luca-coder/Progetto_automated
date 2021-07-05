@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 /**
  * classe che descrive l'oggetto triangolo e ne implementa le funzionalità necessarie al movimento
  */
-public class Triangolo extends Thread{
+public class Triangolo extends Thread {
     private int x;
     private int y;
     private int larghezza;
@@ -16,7 +16,7 @@ public class Triangolo extends Thread{
     private int velocità = 15;
     private BufferedImage imgTriangolo;
 
-    public Triangolo(BufferedImage image, int x, int y, int larghezza, int altezza){
+    public Triangolo(BufferedImage image, int x, int y, int larghezza, int altezza) {
         this.x = x;
         this.y = y;
         this.altezza = altezza;
@@ -29,8 +29,8 @@ public class Triangolo extends Thread{
     }
 
     @Override
-    public void run(){
-        while (!TutorialMode.vittoria){
+    public void run() {
+        while (!TutorialMode.vittoria) {
             aggiorna();
             try {
                 Thread.sleep(100);
@@ -40,15 +40,15 @@ public class Triangolo extends Thread{
         }
     }
 
-    private void aggiorna(){
+    private void aggiorna() {
         x -= velocità;
     }
 
-    public void disegna(Graphics g){
+    public void disegna(Graphics g) {
         g.drawImage(imgTriangolo, x, y, larghezza, altezza, null);
     }
 
-    public Rectangle getBordi(){
+    public Rectangle getBordi() {
         return new Rectangle(x, y, larghezza, altezza);
     }
 

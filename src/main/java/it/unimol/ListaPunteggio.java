@@ -7,18 +7,18 @@ public class ListaPunteggio {
 
     public ArrayList<Punteggio> listaPunteggio;
 
-    private ListaPunteggio(){
+    private ListaPunteggio() {
         this.listaPunteggio = new ArrayList<>();
     }
 
-    public static ListaPunteggio getInstance(){
+    public static ListaPunteggio getInstance() {
         if (instance == null) {
             instance = new ListaPunteggio();
         }
         return instance;
     }
 
-    public void ordinaClassifica(ArrayList<Punteggio> classifica){
+    public void ordinaClassifica(ArrayList<Punteggio> classifica) {
         classifica.sort(new Punteggio());
     }
 }

@@ -15,8 +15,10 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Random;
+
 /**
  * Classe che implementa la modalità survival, formata da un livello che prevede la generazione casuale di ostacoli
+ *
  * @author Luca
  */
 public class SurvivalMode extends Canvas implements KeyListener, Runnable {
@@ -39,7 +41,8 @@ public class SurvivalMode extends Canvas implements KeyListener, Runnable {
 
     /**
      * costruttore della classe che chiama il metodo {@code caricaRisorse()}, che carica le immagini del gioco, e il metodo {@code iniziaGioco()}, che carica la lista di ostacoli generata casualmente e fa partire i thread delle entità
-     * @param finestra il frame della modalità survival
+     *
+     * @param finestra   il frame della modalità survival
      * @param difficolta il numero di ostacoli presenti nel livello inserita dal giocatore
      */
     public SurvivalMode(JFrame finestra, int difficolta) {
@@ -99,9 +102,9 @@ public class SurvivalMode extends Canvas implements KeyListener, Runnable {
         bufferStrategy.show();
     }
 
-    private void controlloVittoria(){
+    private void controlloVittoria() {
         int index = listaOstacoli.size();
-        if (listaOstacoli.get(index - 1).getX() < quadrato.getX()){
+        if (listaOstacoli.get(index - 1).getX() < quadrato.getX()) {
             vittoria = true;
             this.finestra.setVisible(false);
 
@@ -149,6 +152,7 @@ public class SurvivalMode extends Canvas implements KeyListener, Runnable {
     public void keyReleased(KeyEvent e) {
 
     }
+
     /**
      * metodo che chiama il metodo {@code disegna()}, che disegna le immagini delle entità, il metodo{@code controlloVittoria()}, che controlla se il giocatore vince, e il metodo {@code controlloCollisioni()}, che controlla che il giocatore perde, finchè la variabile giocoAttivo è impostata a true. Successivamente, chiama il metodo {@code gameover()}, che , in base al valore del parametro passato, istanza la classe Vittoria o Sconfitta
      */
@@ -159,10 +163,10 @@ public class SurvivalMode extends Canvas implements KeyListener, Runnable {
             disegna();
             controlloCollisioni();
             controlloVittoria();
-            }
-        if (vittoria){
+        }
+        if (vittoria) {
             gameOver(true);
-        }else{
+        } else {
             gameOver(false);
         }
     }

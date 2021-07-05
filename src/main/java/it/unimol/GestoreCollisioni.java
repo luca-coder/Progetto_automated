@@ -5,7 +5,7 @@ import it.unimol.oggetti.Triangolo;
 
 public class GestoreCollisioni {
 
-    public static boolean controllaCollisione(Triangolo triangolo, Quadrato quadrato){
+    public static boolean controllaCollisione(Triangolo triangolo, Quadrato quadrato) {
         return triangolo.getBordi().intersects(quadrato.getBordi());
     }
 }

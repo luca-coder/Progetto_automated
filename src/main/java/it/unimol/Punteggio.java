@@ -1,7 +1,6 @@
 package it.unimol;
 
 import java.io.Serializable;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class Punteggio implements Serializable,Comparator<Punteggio> {

@@ -15,7 +15,7 @@ public class CaricatoreSurvival {
      * @param finestraGioco la finestra SceltaDifficoltà che verrà settata a non visibile
      * @param difficolta la difficoltà del livello scelta dal giocatore
      */
-    public CaricatoreSurvival(JFrame finestraGioco, int difficolta){
+    public CaricatoreSurvival(JFrame finestraGioco, int difficolta) {
         finestraGioco.setVisible(false);
 
         JFrame schermataSurvival = new JFrame();

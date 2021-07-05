@@ -17,6 +17,7 @@ import java.util.ArrayList;
 
 /**
  * Classe che implementa la modalità tutorial, formata da un livello precostruito
+ *
  * @author Luca
  */
 public class TutorialMode extends Canvas implements KeyListener, Runnable {
@@ -36,6 +37,7 @@ public class TutorialMode extends Canvas implements KeyListener, Runnable {
 
     /**
      * costruttore della classe che chiama il metodo {@code caricaRisorse()}, che carica le immagini del gioco, e il metodo {@code iniziaGioco()}, che carica la lista di ostacoli e fa partire i thread delle entità
+     *
      * @param finestra il frame della modalità tutorial
      */
     public TutorialMode(JFrame finestra) {
@@ -120,9 +122,9 @@ public class TutorialMode extends Canvas implements KeyListener, Runnable {
 
     }
 
-    private void controlloVittoria(){
+    private void controlloVittoria() {
         int index = listaOstacoli.size();
-        if (listaOstacoli.get(index - 1).getX() < quadrato.getX()){
+        if (listaOstacoli.get(index - 1).getX() < quadrato.getX()) {
             vittoria = true;
             this.finestra.setVisible(false);
             giocoAttivo = false;
@@ -149,9 +151,9 @@ public class TutorialMode extends Canvas implements KeyListener, Runnable {
             controlloVittoria();
             controlloCollisioni();
         }
-        if (vittoria){
+        if (vittoria) {
             gameOver(true);
-        }else{
+        } else {
             gameOver(false);
         }
     }

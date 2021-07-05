@@ -12,7 +12,7 @@ public class CaricatoreTutorial {
      * costruttore della classe che crea un nuovo JFrame che opsiterà la modalitò tutorial e crea un nuovo thread nel quale verrà chiamata
      * @param finestraGioco la finestra home che verrà settata a non visibile
      */
-    public CaricatoreTutorial(JFrame finestraGioco){
+    public CaricatoreTutorial(JFrame finestraGioco) {
         finestraGioco.setVisible(false);
 
         JFrame schermataGioco = new JFrame();

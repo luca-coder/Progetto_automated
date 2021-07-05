@@ -7,7 +7,7 @@ public class Sconfitta {
 
     private JPanel SconfittaPanel;
 
-    public Sconfitta(){
+    public Sconfitta() {
         frameSconfitta();
     }
 
@@ -20,7 +20,7 @@ public class Sconfitta {
         framerecord.setSize(800, 720);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-        framerecord.setLocation(0,0);
+        framerecord.setLocation(0, 0);
 
         framerecord.add(getSconfittaPanel());
         framerecord.setVisible(true);

@@ -9,12 +9,12 @@ public class CaricamentoFile {
 
     private File file = new File("classifica.txt");
 
-    public ArrayList<Punteggio> caricaPunteggio(ArrayList<Punteggio> classifica){
+    public ArrayList<Punteggio> caricaPunteggio(ArrayList<Punteggio> classifica) {
         try (FileInputStream fileInputStream = new FileInputStream(file);
-             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)){
-            if (!this.file.exists()){
+             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
+            if (!this.file.exists()) {
                 file.createNewFile();
-            }else{
+            } else {
                 classifica = (ArrayList<Punteggio>) objectInputStream.readObject();
             }
         } catch (IOException | ClassNotFoundException e) {

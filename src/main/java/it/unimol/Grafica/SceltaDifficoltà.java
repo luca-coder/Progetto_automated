@@ -18,6 +18,7 @@ public class SceltaDifficoltà {
 
     /**
      * costruttore della classe che legge il valore passato in input e carica il frame della modalità survival
+     *
      * @param jFrame il Jframe della home che viene settato a non visibile
      */
     public SceltaDifficoltà(JFrame jFrame) {
@@ -25,7 +26,7 @@ public class SceltaDifficoltà {
         JFrame frame = frameDifficolta();
         giocaButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e){
+            public void actionPerformed(ActionEvent e) {
                 difficolta = Integer.parseInt(textField1.getText());
                 if (difficolta == 0)
                     try {
@@ -42,12 +43,12 @@ public class SceltaDifficoltà {
         return panel1;
     }
 
-    private JFrame frameDifficolta(){
+    private JFrame frameDifficolta() {
         JFrame framerecord = new JFrame();
         framerecord.setSize(800, 720);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-        framerecord.setLocation(0,0);
+        framerecord.setLocation(0, 0);
 
         framerecord.add(getPanel1());
         framerecord.setVisible(true);

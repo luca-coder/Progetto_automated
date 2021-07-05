@@ -19,8 +19,5 @@
         <module name="MissingSwitchDefault"/>
         <module name="OverloadMethodsDeclarationOrder"/>
         <module name="VariableDeclarationUsageDistance"/>
-        <module name="PackageName">
-            <property name="format" value="^[a-z]+(\.[a-z][a-z0-9]*)*$"/>
-        </module>
     </module>
 </module>
