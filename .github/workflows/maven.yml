@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jarfile
-          path: target/CubeRun-1.0-SNAPSHOT.jar
+          path: target/Cuberun-1.0-SNAPSHOT.jar
