@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fabf5ca2-3df3-4a2a-b453-f3e8ff3b8bb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videogioco1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/videogioco1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="112" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="258" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -199,7 +201,7 @@
       <workItem from="1596041282410" duration="842000" />
       <workItem from="1596962319313" duration="94000" />
       <workItem from="1598103932622" duration="96000" />
-      <workItem from="1625497990796" duration="618000" />
+      <workItem from="1625497990796" duration="942000" />
     </task>
     <servers />
   </component>
@@ -222,25 +224,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498414867" />
-    <state width="1877" height="398" key="GridCell.Tab.0.bottom" timestamp="1625498009400">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom" timestamp="1625498937968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498009400" />
-    <state width="1877" height="398" key="GridCell.Tab.0.center" timestamp="1625498009400">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498937968" />
+    <state width="1877" height="398" key="GridCell.Tab.0.center" timestamp="1625498937968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498009400" />
-    <state width="1877" height="398" key="GridCell.Tab.0.left" timestamp="1625498009400">
+    <state width="1877" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498937968" />
+    <state width="1877" height="398" key="GridCell.Tab.0.left" timestamp="1625498937968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498009400" />
-    <state width="1877" height="398" key="GridCell.Tab.0.right" timestamp="1625498009400">
+    <state width="1877" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498937968" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right" timestamp="1625498937968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498009400" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498937968" />
     <state x="342" y="140" key="new project wizard" timestamp="1625498021157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498021157" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1625498752515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1625498752515" />
   </component>
 </project>
